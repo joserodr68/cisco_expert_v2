@@ -11,8 +11,6 @@ from langchain.memory import ConversationBufferMemory
 import time
 
 
-)
-
 # Get the Groq API key from environment variables-- streamlit secrets (.streamlit/secrets.toml)
 api_key = st.secrets["GROQ_API_KEY"]
 
