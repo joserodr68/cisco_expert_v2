@@ -8,18 +8,13 @@ from langchain_groq import ChatGroq
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 
-from dotenv import load_dotenv
-
 import time
 
 
-
-
-load_dotenv()
-api_key = os.getenv('GROQ_API_KEY')
+)
 
 # Get the Groq API key from environment variables-- streamlit secrets (.streamlit/secrets.toml)
-#api_key = st.secrets["GROQ_API_KEY"]
+api_key = st.secrets["GROQ_API_KEY"]
 
 
 #pip install langchain-groq
