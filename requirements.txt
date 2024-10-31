@@ -1,0 +1,10 @@
+langchain==0.3.4
+langchain-community
+langchain-core
+langchain-experimental==0.3.2
+langchain-groq==0.2.0
+langchain-openai
+langchain-text-splitters
+langcodes
+langgraph
+langsmith
